@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Crawl-delay: 0
+
+Sitemap: https://www.calculatorarchive.com/sitemap.xml
+
+# Block access to admin or private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+
+# Allow all search engines to access the calculator
+Allow: /calc/
+Allow: /calc/tip-calculator
+
+# Image optimization
+User-agent: Googlebot-Image
+Allow: /images/
+
+# PageSpeed Insights and other tools
+User-agent: Googlebot
+Allow: /

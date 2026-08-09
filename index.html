@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online tip calculator with voice support. Calculate restaurant tips, split bills, and find tip amounts instantly. Best tip calculator for dining, taxis, and services.">
+    <meta name="keywords" content="tip calculator, restaurant tip calculator, calculate tip, how much to tip, tip percentage calculator, bill splitter, service tip guide, dining tip calculator, tip amount calculator, gratuity calculator">
+    <meta name="author" content="Calculator Archive">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta property="og:title" content="Free Tip Calculator - Calculate Tips & Split Bills Instantly">
+    <meta property="og:description" content="Use our free online tip calculator to calculate restaurant tips, split bills among friends, and find the perfect tip amount for any service.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.calculatorarchive.com/calc/tip-calculator">
+    <meta property="og:image" content="https://www.calculatorarchive.com/images/tip-calculator-og.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Tip Calculator - Calculate Tips & Split Bills">
+    <meta name="twitter:description" content="Calculate restaurant tips instantly with our free online tip calculator. Split bills and find tip percentages easily.">
+    <meta name="geo.region" content="US">
+    <meta name="geo.placename" content="United States">
+    <link rel="canonical" href="https://www.calculatorarchive.com/calc/tip-calculator">
+    <title>Free Tip Calculator - Calculate Restaurant Tips & Split Bills | Calculator Archive</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Free Tip Calculator",
+        "url": "https://www.calculatorarchive.com/calc/tip-calculator",
+        "description": "Free online tip calculator to calculate restaurant tips, split bills, and find tip amounts instantly.",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "potentialAction": {
+            "@type": "CalculateAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://www.calculatorarchive.com/calc/tip-calculator"
+            },
+            "object": {
+                "@type": "Thing",
+                "name": "Tip Amount"
+            }
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How do I calculate a 15 percent tip?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "To calculate a 15 percent tip, multiply your bill amount by 0.15. For example, a $50 bill would have a $7.50 tip, making the total $57.50."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a good tip percentage for restaurant service?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Standard restaurant tipping in the US is 15-20 percent of the pre-tax bill amount. 15 percent for average service, 18 percent for good service, and 20 percent or more for excellent service."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Should I tip on the total or subtotal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You should typically tip on the pre-tax subtotal. However, many people tip on the total including tax for convenience. The difference is usually minimal."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Calculate a Tip",
+        "description": "Learn how to calculate tips for restaurant bills, split bills among friends, and determine appropriate tip percentages.",
+        "step": [
+            {
+                "@type": "HowToStep",
+                "name": "Enter Bill Amount",
+                "text": "Enter the total bill amount from your restaurant receipt or service invoice."
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Select Tip Percentage",
+                "text": "Choose a tip percentage based on service quality. Common percentages are 15%, 18%, and 20%."
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Split the Bill",
+                "text": "Enter the number of people splitting the bill to divide the total cost equally."
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Calculate",
+                "text": "Click calculate to see the tip amount, total bill, and amount per person."
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="https://calculatorarchive.com/" class="logo" rel="dofollow">Calculator Archive</a>
+            <nav class="main-nav">
+                <a href="https://calculatorarchive.com/" rel="dofollow">Home</a>
+                <a href="https://www.calculatorarchive.com/calc/tip-calculator" class="active" rel="dofollow">Tip Calculator</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Free Tip Calculator - Calculate Restaurant Tips & Split Bills Instantly</h1>
+                <p class="hero-subtitle">The most accurate <strong>tip calculator</strong> for restaurants, taxis, and services. Calculate <strong>tip percentages</strong>, <strong>split bills</strong> among friends, and find the perfect <strong>gratuity amount</strong> with our free online tool.</p>
+            </div>
+        </section>
+
+        <section class="calculator-section">
+            <div class="container">
+                <div class="calculator-card">
+                    <h2 class="calculator-title">Tip Calculator</h2>
+                    <p class="calculator-subtitle">Enter your bill details below to calculate the perfect tip</p>
+                    
+                    <div class="calculator-form">
+                        <div class="form-group">
+                            <label for="billAmount">Bill Amount ($)</label>
+                            <div class="input-wrapper">
+                                <span class="currency-symbol">$</span>
+                                <input type="number" id="billAmount" placeholder="0.00" step="0.01" min="0" aria-label="Bill amount in dollars">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Tip Percentage</label>
+                            <div class="tip-buttons">
+                                <button class="tip-btn" data-tip="15">15%</button>
+                                <button class="tip-btn active" data-tip="18">18%</button>
+                                <button class="tip-btn" data-tip="20">20%</button>
+                                <button class="tip-btn" data-tip="25">25%</button>
+                            </div>
+                            <div class="custom-tip">
+                                <label for="customTip">Custom Tip (%)</label>
+                                <input type="number" id="customTip" placeholder="Custom %" min="0" max="100" value="18" aria-label="Custom tip percentage">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="splitCount">Number of People</label>
+                            <div class="input-wrapper">
+                                <input type="number" id="splitCount" value="1" min="1" max="100" aria-label="Number of people splitting the bill">
+                            </div>
+                        </div>
+                        
+                        <div class="voice-controls">
+                            <button id="voiceInput" class="voice-btn" aria-label="Use voice to enter bill amount">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                    <line x1="12" y1="19" x2="12" y2="23"></line>
+                                    <line x1="8" y1="23" x2="16" y2="23"></line>
+                                </svg>
+                                <span>Voice Input</span>
+                            </button>
+                            <button id="voiceOutput" class="voice-btn" aria-label="Listen to results">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                </svg>
+                                <span>Listen</span>
+                            </button>
+                        </div>
+                        
+                        <button id="calculateBtn" class="calculate-btn">Calculate Tip</button>
+                    </div>
+                    
+                    <div id="results" class="results-container" style="display: none;">
+                        <div class="result-card tip-amount">
+                            <span class="result-label">Tip Amount</span>
+                            <span class="result-value" id="tipAmount">$0.00</span>
+                        </div>
+                        <div class="result-card total-amount">
+                            <span class="result-label">Total Bill</span>
+                            <span class="result-value" id="totalAmount">$0.00</span>
+                        </div>
+                        <div class="result-card per-person">
+                            <span class="result-label">Per Person</span>
+                            <span class="result-value" id="perPerson">$0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tip-guide-section">
+            <div class="container">
+                <h2>Complete Tip Guide - How Much Should You Tip?</h2>
+                <p class="guide-intro">Tipping is an important part of service culture in many countries. Our comprehensive tip guide helps you understand standard tipping percentages for restaurants, taxis, hotels, and various services worldwide.</p>
+                
+                <div class="tip-table-container">
+                    <h3>Standard Tipping Percentages by Service</h3>
+                    <table class="tip-table">
+                        <thead>
+                            <tr>
+                                <th>Service Type</th>
+                                <th>Recommended Tip</th>
+                                <th>Low Competition Keywords</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Restaurant Server</td>
+                                <td>15-20%</td>
+                                <td>restaurant tipping guide</td>
+                            </tr>
+                            <tr>
+                                <td>Bartender</td>
+                                <td>$1-2 per drink or 15-20%</td>
+                                <td>bar tip calculator</td>
+                            </tr>
+                            <tr>
+                                <td>Taxi Driver</td>
+                                <td>10-15%</td>
+                                <td>taxi tipping calculator</td>
+                            </tr>
+                            <tr>
+                                <td>Hotel Housekeeping</td>
+                                <td>$2-5 per night</td>
+                                <td>hotel tipping guide</td>
+                            </tr>
+                            <tr>
+                                <td>Hair Salon</td>
+                                <td>15-20%</td>
+                                <td>salon tipping calculator</td>
+                            </tr>
+                            <tr>
+                                <td>Food Delivery</td>
+                                <td>10-15% or $3-5</td>
+                                <td>delivery tip calculator</td>
+                            </tr>
+                            <tr>
+                                <td>Pizza Delivery</td>
+                                <td>10-15% or $2-3</td>
+                                <td>pizza delivery tip</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-to-section">
+            <div class="container">
+                <h2>How to Calculate a Tip in 3 Simple Steps</h2>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Enter Bill Amount</h3>
+                        <p>Input the total bill amount from your receipt. Our tip calculator works with any currency and handles decimal amounts accurately.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Select Tip Percentage</h3>
+                        <p>Choose from common tip percentages like 15%, 18%, or 20%, or enter a custom percentage based on service quality.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Get Instant Results</h3>
+                        <p>See your tip amount, total bill, and per-person cost instantly. Use voice commands to calculate hands-free.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions About Tipping</h2>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question" data-voice-text="How do I calculate a 15 percent tip?">How do I calculate a 15 percent tip?</h3>
+                    <div class="faq-answer" data-voice-text="To calculate a 15 percent tip, multiply your bill amount by 0.15. For example, a $50 bill would have a $7.50 tip, making the total $57.50.">
+                        <p>To calculate a 15 percent tip, multiply your bill amount by 0.15. For example, a $50 bill would have a $7.50 tip, making the total $57.50. Use our free tip calculator above for instant results.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question" data-voice-text="What is a good tip percentage for restaurant service?">What is a good tip percentage for restaurant service?</h3>
+                    <div class="faq-answer" data-voice-text="Standard restaurant tipping in the US is 15-20 percent of the pre-tax bill amount. 15 percent for average service, 18 percent for good service, and 20 percent or more for excellent service.">
+                        <p>Standard restaurant tipping in the US is 15-20 percent of the pre-tax bill amount. 15 percent for average service, 18 percent for good service, and 20 percent or more for excellent service. Many restaurants now suggest tip percentages on receipts.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question" data-voice-text="Should I tip on the total or subtotal?">Should I tip on the total or subtotal?</h3>
+                    <div class="faq-answer" data-voice-text="You should typically tip on the pre-tax subtotal. However, many people tip on the total including tax for convenience. The difference is usually minimal.">
+                        <p>You should typically tip on the pre-tax subtotal. However, many people tip on the total including tax for convenience. The difference is usually minimal, around $1-2 on a $100 bill. Our tip calculator lets you choose which amount to use.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question" data-voice-text="How much should I tip for takeout orders?">How much should I tip for takeout orders?</h3>
+                    <div class="faq-answer" data-voice-text="For takeout orders, tipping is optional but appreciated. A small tip of 5-10 percent is common for larger orders or exceptional service.">
+                        <p>For takeout orders, tipping is optional but appreciated. A small tip of 5-10 percent is common for larger orders or exceptional service. Some people round up to the nearest dollar for small orders.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question" data-voice-text="Is 20 percent tip standard?">Is 20 percent tip standard?</h3>
+                    <div class="faq-answer" data-voice-text="A 20 percent tip has become increasingly standard in many parts of the US, especially for sit-down restaurant service. It shows appreciation for good service and helps support service workers.">
+                        <p>A 20 percent tip has become increasingly standard in many parts of the US, especially for sit-down restaurant service. It shows appreciation for good service and helps support service workers who often rely on tips as a significant part of their income.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-tools-section">
+            <div class="container">
+                <h2>Related Calculator Tools</h2>
+                <div class="tools-grid">
+                    <a href="https://www.calculatorarchive.com/calc/tip-calculator" class="tool-card" rel="dofollow">
+                        <h3>Tip Calculator</h3>
+                        <p>Calculate restaurant tips and split bills</p>
+                    </a>
+                    <a href="https://calculatorarchive.com/" class="tool-card" rel="dofollow">
+                        <h3>All Calculators</h3>
+                        <p>Browse our complete collection of free calculators</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Free Tip Calculator provided by <a href="https://calculatorarchive.com/" rel="dofollow">Calculator Archive</a>. Use our <strong>tip calculator</strong> for accurate <strong>tip percentages</strong>, <strong>bill splitting</strong>, and <strong>gratuity calculations</strong>.</p>
+            <p class="backlink-highlight">For the best tip calculator experience, visit <a href="https://www.calculatorarchive.com/calc/tip-calculator" rel="dofollow">Calculator Archive Tip Calculator</a> - your trusted source for free online calculators.</p>
+        </div>
+    </footer>
+
+    <div id="speakable-content" style="display: none;">
+        <h2>Free Tip Calculator</h2>
+        <p>Use our free online tip calculator to calculate restaurant tips, split bills among friends, and find the perfect tip amount for any service. Calculate tip percentages instantly with our easy-to-use tool.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
